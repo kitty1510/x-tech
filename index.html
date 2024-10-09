@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header section -->
+    <header class="flex justify-between items-center h-20 bg-white p-4 text-lg sm:text-2xl flex-wrap gap-2">
+        <div class="flex-shrink-0">
+            <div class="font-bold">
+                <span class="text-gray-500">X-TECH</span>
+                <span class="font-thin">LANDING</span>
+            </div>
+        </div>
+        <div class="flex-shrink-0">
+            <p class="text-sm sm:text-base text-slate-600 font-bold">
+                CALL NOW! <span class="font-thin">1-800-123-4567</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="p-4 text-center">
+        <h1 class="text-gray-700 font-bold text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
+            The perfect way to convert your traffic into sales
+        </h1>
+
+        <img src="picture.png" alt="Product Screenshot" class="rounded-lg shadow-lg my-2 max-w-full h-auto">
+
+        <button class="bg-gradient-to-b from-blue-200 to-blue-500 text-indigo-700 font-bold py-2 px-4 sm:py-3 sm:px-6 
+             rounded-full shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-400 my-4 sm:my-6">
+            GIVE IT A TRY!
+            <p class="text-xs font-light">Get 30 days access to the fully operational product</p>
+        </button>
+    </main>
+
+    <!-- Features section -->
+    <section class="bg-white py-12">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-box"></i>
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">Quick and Easy</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-lock"></i> <!-- Icon hình ổ khóa (lock) -->
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">Less risky</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-tools"></i> <!-- Icon hình công cụ (tools) -->
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">Support - 24h</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Feature 4 -->
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-book"></i> <!-- Icon hình quyển sách (book) -->
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">Well written help file</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Feature 5 -->
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-camera"></i> <!-- Icon hình máy ảnh (camera) -->
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">Import your own photos</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Feature 6 -->
+            <div class="text-center">
+                <div class="text-4xl md:text-5xl text-blue-500 mb-4">
+                    <i class="fas fa-laptop"></i> <!-- Icon hình máy tính xách tay (laptop) -->
+                </div>
+                <h3 class="font-bold text-lg md:text-xl text-gray-700">User friendly design</h3>
+                <p class="text-gray-500 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Other features omitted for brevity -->
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="p-6 bg-gray-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-blue-500 mb-4 text-left">See what our customers are saying...</h2>
+
+            <div class="relative bg-gray-100 border border-gray-300 rounded-lg p-6 text-gray-600 italic shadow-md">
+                <p class="mb-4">
+                    "When the world remains blind to suffering, the hatred for our kind will stretch into eternity..."
+                </p>
+                <div class="absolute bottom-[-10px] right-6">
+                    <div
+                        class="w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[10px] border-t-gray-100">
+                    </div>
+                </div>
+            </div>
+            <div class="text-right mt-4 text-sm text-gray-500">Kitty</div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="bg-gray-200 pt-12">
+        <div class="container mx-auto text-white px-5">
+            <div class="flex flex-col lg:flex-row justify-between gap-5">
+                <div class="text-gray-800">
+                    <h1 class="text-2xl font-bold mb-4">Contact</h1>
+                    <p>I am everywhere and nowhere...</p>
+                </div>
+
+                <div class="text-gray-800">
+                    <h2 class="text-2xl font-bold mb-4 ">Location</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d18702.252135063416!2d105.47055971729678!3d9.794454691687!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1728478278656!5m2!1svi!2s"
+                        width="300" height="75" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="text-gray-800">
+                    <h3 class="text-2xl font-bold">Additional Info</h3>
+                    <p>Provide more information here, such as email or phone number.</p>
+                </div>
+                <div class="text-gray-800">
+                    <h4 class="text-2xl font-bold ">Follow Us</h4>
+                    <p>Links to social media accounts or other contact options.</p>
+                </div>
+                <!-- Other footer sections omitted for brevity -->
+            </div>
+        </div>
+        <div class="flex justify-between bg-black text-gray-800 mt-4 shadow-lg p-4 text-center lg:text-left bg-opacity-15">
+            <span>Copyright &copy; 2021 X-TECH LANDING. All rights reserved.</span>
+            <span class="ml-4">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white ml-4">Terms of Service</a>
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
